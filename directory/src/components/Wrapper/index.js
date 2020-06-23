@@ -10,13 +10,13 @@ function Wrapper(props) {
   return (
     <main className="wrapper" {...props}>
       <Row>
-        <Col size="md-5 lg-3">
+        <Col size="md-4 lg-3">
           <List role="Sort" items="Name,Department,Branch"/>
           <List role="Filter" category="Department" items="Finance,HR,Operation,Sales"/>
           <List role="Filter" category="Branch" items="ON,BC,QC"/>
         </Col>
-        <Col size="md-7 lg-9">
-          <Container />
+        <Col size="md-8 lg-9">
+          <Container fluid/>
         </Col>
       </Row>
     </main>

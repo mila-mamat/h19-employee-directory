@@ -4,12 +4,12 @@ import "./style.css";
 function List(props) {
   const items = props.items.split(",")
   return (
-    <div className="list-group mx-2 my-3">
+    <div className="list-group m-2">
       <button
         type="button"
         className="list-group-item list-group-item-action bg-primary text-white header"
       >
-        {props.role} Employee By {props.category}:
+        {props.role} by {props.category}:
       </button>
 
       {items.map(item => (
