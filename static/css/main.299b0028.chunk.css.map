@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,SACE,eAAgB,CAChB,oBACF,CAHA,MACE,qBAAsB,CACtB,uBAA2B,CAC3B,2BAA4B,CAC5B,qBAAuB,CACvB,8DAAkE,CAElE,kBACF,CAEA,UACE,eACF,CAEA,WACE,iBACF,CAhBA,cACI,6BACJ","file":"main.299b0028.chunk.css","sourcesContent":["button.header{\n    pointer-events: none !important;\n}"]}
