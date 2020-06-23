@@ -4,12 +4,7 @@ import "./style.css";
 
 function Card(props) {
   return (
-    <div
-      className="card"
-     
-    >
-       
-    </div>
+    <div className="card" {...props} />
   );
 }
 

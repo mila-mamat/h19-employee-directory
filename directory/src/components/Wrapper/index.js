@@ -3,19 +3,20 @@ import "./style.css";
 import Row from "../Row";
 import Col from "../Col";
 import Container from "../Container";
-import Form from "../Form";
-import Card from "../Card";
+import List from "../List";
+
 
 function Wrapper(props) {
   return (
     <main className="wrapper" {...props}>
-      <Row >
-        <Col size="md-5 lg-3" >
-        <Form />
-       
+      <Row>
+        <Col size="md-5 lg-3">
+          <List role="Sort" items="Name,Department,Branch"/>
+          <List role="Filter" category="Department" items="Finance,HR,Operation,Sales"/>
+          <List role="Filter" category="Branch" items="ON,BC,QC"/>
         </Col>
         <Col size="md-7 lg-9">
-        <Container />
+          <Container />
         </Col>
       </Row>
     </main>
