@@ -11,3 +11,7 @@
 .card img{
   max-width:100px;
 }
+
+.card-body{
+  padding:10px 20px
+}
