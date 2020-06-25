@@ -13,7 +13,7 @@ function List(props) {
       </button>
 
       {items.map(item => (
-        <button className='list-group-item list-group-item-action' id={item} key={item}  >
+        <button className='list-group-item list-group-item-action' role={props.role} category={props.category} id={item} key={item} onClick={props.onClick}  >
           {item}
         </button>
       ))}

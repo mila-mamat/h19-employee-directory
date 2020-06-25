@@ -4,10 +4,10 @@ import "./style.css";
 function Card(props) {
   return (
     
-      <div className="card" id={props.id} key={props.id} {...props}  >
+      <div className="card" key={props.id}   department={props.department} branch={props.branch} >
         <div className="row no-gutters row-cols-3">
           <div className="col-2 " >
-            <img src="./assets/avatar.png" className="card-img mx-3" alt="..."></img>
+            <img src={props.avatarUrl} className="card-img mx-3" alt="..."></img>
           </div>
           <div className="col">
             <div className="card-body">

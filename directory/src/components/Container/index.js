@@ -1,9 +1,9 @@
 import React from "react";
 import Card from "../Card";
-import employees from "../../employees.json";
+
 
 function Container(props) {
-
+ const employees = props.employees;
   return <div className={`container${props.fluid ? "-fluid" : ""}`} {...props} >
     {employees.map(employee => (
           <Card
@@ -13,6 +13,7 @@ function Container(props) {
             position={employee.position}
             department={employee.department}
             branch={employee.branch}
+            avatarUrl ={employee.avatarUrl}
           />
         ))}
   
