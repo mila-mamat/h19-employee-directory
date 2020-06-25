@@ -53,12 +53,12 @@ So that I have quick access to their information.
 
 This app allows users to sort the full or filtered directory by employee name, department or branch.
 
-<img src="https://github.com/mila-mamat/h18-progressive-budget/blob/master/demo/sorting.gif"  width="900" height="500">
+<img src="https://github.com/mila-mamat/h19-employee-directory/blob/master/demo/sorting.gif"  width="900" height="500">
 
 
 
 This app allows users to filter the directory by department and/or branch.
-<img src="https://github.com/mila-mamat/h18-progressive-budget/blob/master/demo/filtering.gif"  width="900" height="500">
+<img src="https://github.com/mila-mamat/h19-employee-directory/blob/master/demo/filtering.gif"  width="900" height="500">
 
 
 ## Installing and running the code on computer
