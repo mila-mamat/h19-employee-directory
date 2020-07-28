@@ -51,19 +51,19 @@ So that I have quick access to their information.
  
 ## Demo
 
-This app allows users to search employees by name.
+### This app allows users to search employees by name.
 <img src="https://github.com/mila-mamat/h19-employee-directory/blob/master/demo/searching.gif"  width="900" height="500">
 
 <br>
 
-This app allows users to sort the full or filtered directory by employee name, department or branch.
+### This app allows users to sort the full or filtered directory by employee name, department or branch.
 
 <img src="https://github.com/mila-mamat/h19-employee-directory/blob/master/demo/sorting.gif"  width="900" height="500">
 
 
 <br>
 
-This app allows users to filter the directory by department and/or branch.
+### This app allows users to filter the directory by department and/or branch.
 <img src="https://github.com/mila-mamat/h19-employee-directory/blob/master/demo/filtering.gif"  width="900" height="500">
 
 
